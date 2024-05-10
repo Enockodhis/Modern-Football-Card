@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Chelsea football team card
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Team stats</h1>
+    <main>
+      <div class="team-stats">
+        <p>Team: <span id="team"></span></p>
+        <p>Sport: <span id="sport"></span></p>
+        <p>Year: <span id="year"></span></p>
+        <p>Head coach: <span id="head-coach"></span></p>
+      </div>
+      <label class="options-label" for="players">Filter Teammates:</label>
+      <select name="players" id="players">
+        <option value="all">All Players</option>
+        <option value="nickname">Nicknames</option>
+        <option value="forward">Position Forward</option>
+        <option value="midfielder">Position Midfielder</option>
+        <option value="defender">Position Defender</option>
+        <option value="goalkeeper">Position Goalkeeper</option>
+      </select>
+      <div class="cards" id="player-cards">
+        <div class="player-card">
+          <h2>Robert Sanchez</h2>
+          <p>Position: goalkeeper</p>
+          <p>Number: 1</p>
+          <p>Nickname: Robb</p>
+        </div>
+        <div class="player-card">
+          <h2>Axel Disasi</h2>
+          <p>Position: defender</p>
+          <p>Number: 2</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Marc Cucurella</h2>
+          <p>Position: defender</p>
+          <p>Number: 3</p>
+          <p>Nickname: Marc</p>
+        </div>
+        <div class="player-card">
+          <h2>Levi Colwill</h2>
+          <p>Position: defender</p>
+          <p>Number: 26</p>
+          <p>Nickname: Lecol</p>
+        </div>
+        <div class="player-card">
+          <h2>Beniot Badiashile</h2>
+          <p>Position: defender</p>
+          <p>Number: 5</p>
+          <p>Nickname: Beniot</p>
+        </div>
+        <div class="player-card">
+          <h2>Thiago Silva</h2>
+          <p>Position: defender</p>
+          <p>Number: 6</p>
+          <p>Nickname: El Gran Capitán</p>
+        </div>
+        <div class="player-card">
+          <h2>Raheem Sterling</h2>
+          <p>Position: forward</p>
+          <p>Number: 7</p>
+          <p>Nickname: Raz</p>
+        </div>
+        <div class="player-card">
+          <h2>Enzo Fernandez</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 8</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Nicolas Jackson</h2>
+          <p>Position: forward</p>
+          <p>Number: 15</p>
+          <p>Nickname: Nico</p>
+        </div>
+        <div class="player-card">
+          <h2>Mykhailo Mudryk</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 10</p>
+          <p>Nickname: Misha</p>
+        </div>
+        <div class="player-card">
+          <h2>Noni Madueke</h2>
+          <p>Position: forward</p>
+          <p>Number: 11</p>
+          <p>Nickname: Nonzinoo</p>
+        </div>
+        <div class="player-card">
+          <h2>Romeo Lavia</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 45</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Malo Gusto</h2>
+          <p>Position: defender</p>
+          <p>Number: 27</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Conor Gallagher</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 23</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>(Captain) Reece James</h2>
+          <p>Position: forward</p>
+          <p>Number: 24</p>
+          <p>Nickname: Reece</p>
+        </div>
+        <div class="player-card">
+          <h2>Lesley Ugochukwu</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 16</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Carney Chukwuemeka</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 17</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Christopher Nkunku</h2>
+          <p>Position: forward</p>
+          <p>Number: 18</p>
+          <p>Nickname: N/A</p>
+        </div>
+        <div class="player-card">
+          <h2>Djordge Petrovic</h2>
+          <p>Position: goalkeeper</p>
+          <p>Number: 28</p>
+          <p>Nickname: Brick Wall</p>
+        </div>
+        <div class="player-card">
+          <h2>Cole Palmer</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 20</p>
+          <p>Nickname: cold</p>
+        </div>
+        <div class="player-card">
+          <h2>Ben Chilwell</h2>
+          <p>Position: defender</p>
+          <p>Number: 21</p>
+          <p>Nickname: Calesita</p>
+        </div>
+        <div class="player-card">
+          <h2>Moises Caicedo</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 25</p>
+          <p>Nickname: N/A</p>
+        </div>
+      </div>
+    </main>
+    <footer>&copy; Enock Football Analyst</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
